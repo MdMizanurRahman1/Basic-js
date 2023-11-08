@@ -10,3 +10,17 @@ let y = JSON.parse(x);
 console.log(typeof y);
 console.log(y);
 
+// 3
+function func2() {
+    for (var i = 0; i < 3; i++) {
+        setTimeout(() => console.log(i), 1000);
+    }
+}
+func2();
+
+// variable type= variable is a box where we can storage things and can be changeable.
+// number, string, boolean, undefined, null
+// array and object
+var num3 = 34;
+var name = 'anisul islam';
+var isOkay = true;
