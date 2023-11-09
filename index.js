@@ -24,3 +24,17 @@ func2();
 var num3 = 34;
 var name = 'anisul islam';
 var isOkay = true;
+
+
+const fruits3 = ["Banana", "Orange", "Apple", "Mango", "kiwi"];
+fruits3.shift();
+console.log(fruits3);
+
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+fruits2.unshift("Guava");
+
+console.log(fruits2);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon", "Pineapple");
+console.log(fruits);
