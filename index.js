@@ -38,3 +38,9 @@ console.log(fruits2);
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.unshift("Lemon", "Pineapple");
 console.log(fruits);
+
+
+const fruits23 = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits23.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruits23);
