@@ -49,4 +49,3 @@ console.log(fruits23);
 let z = '{ "b": 1, "c": 2 }';
 let c = JSON.parse(z);
 console.log(typeof c);
-
