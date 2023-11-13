@@ -44,3 +44,9 @@ const fruits23 = ["Banana", "Orange", "Apple", "Mango"];
 
 fruits23.splice(2, 0, "Lemon", "Kiwi");
 console.log(fruits23);
+
+
+let z = '{ "b": 1, "c": 2 }';
+let c = JSON.parse(z);
+console.log(typeof c);
+
