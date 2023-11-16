@@ -49,3 +49,33 @@ console.log(fruits23);
 let z = '{ "b": 1, "c": 2 }';
 let c = JSON.parse(z);
 console.log(typeof c);
+
+const multilineCode = `
+Backtick is used for multiline string 
+and we can discuss about that thing
+in es6 but before that there should be 
+an elementary discusssion period
+`;
+
+console.log(multilineCode);
+
+const a = 20;
+const b = 30;
+
+const summary = `Summary of ${a} and ${b} is ${a + b}`;
+console.log(summary);
+
+const add = (first, last) => {
+    const sum = first + last;
+    return sum
+}
+
+console.log(add(19, 23));
+
+
+const numbers = [21, 12, 23, 34, 45];
+const numbers2 = [87, 98, 343, ...numbers, 54, 55, 56];
+numbers.push(98)
+
+console.log(numbers);
+console.log(numbers2);
