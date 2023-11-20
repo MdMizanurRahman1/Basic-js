@@ -79,3 +79,11 @@ numbers.push(98)
 
 console.log(numbers);
 console.log(numbers2);
+
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 1000);
+}
+
+
