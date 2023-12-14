@@ -72,3 +72,16 @@ if (math == true) {
 } else {
 
 }
+
+let x2 = 11.656;
+x2.toFixed(0);
+x2.toFixed(2);
+x2.toFixed(4);
+x2.toFixed(6);
+
+parseInt("-11");
+parseInt("-11.33");
+parseInt("11");
+parseInt("12.33");
+parseInt("13 40 50");
+parseInt("50 years");
